@@ -28,7 +28,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get update
-        echo python -V
+        echo "python -V"
         sudo apt update
         sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
         sudo apt -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
